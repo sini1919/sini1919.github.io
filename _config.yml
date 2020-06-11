@@ -17,11 +17,11 @@ buildtime: "1514736000" #博客建立时的时间戳 可进入https://tool.lu/ti
 
 PJAX: true #启用PJAX，会与评论系统冲突（如不用评论系统建议开启）
 
-paginate: 8 #同时显示的最大文章数，超过自动分页
+paginate: 5 #The maximum number of articles displayed on the front banner
 paginate_path: "page:num"
 
-background: https://api.dujin.org/bing/1920.php
-theme_color: 546E7A
+background: https://api.dujin.org/bing/1920.php # Top banner picture path ( Want to change it with my own picture, cna I?)
+theme_color: 800020 #546E7A
 
 google_analytics:
 # hydrogen-blog date format
