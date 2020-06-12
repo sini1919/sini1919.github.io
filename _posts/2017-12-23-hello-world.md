@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello World!
+title: My First Post!
 tags: Hydrogen
 stickie: true
 ---
