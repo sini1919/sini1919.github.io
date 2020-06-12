@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hmm...
-tagline: This is sub-title
+title: Recent Research
+tagline:
 permalink: /links.html
 ---
 
@@ -13,6 +13,10 @@ permalink: /links.html
 </div>
 {% endfor %}
 
+Energies : ["A Long-Term Evaluation on Transmission Line Expansion Planning"](https://doi.org/10.3390/en13081899)
+
+IEEE Transaction on Smart Grid   : [ "Optimal Bidding and Operation Strategies for EV Aggegators by Regrouping Aggregated EV Batteries"](https://doi.org/10.1109/TSG.2020.2999887)
+
 [되돌아가기]({{ site.url }})
 
 <hr/>
@@ -23,4 +27,5 @@ permalink: /links.html
   <div id="comments"></div>
   {% include comments.html %}
   {% endif %}
+
   {% include scripts.html %}
