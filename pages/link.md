@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hmm...
-tagline: My friends.
+tagline: This is sub-title
 permalink: /links.html
 ---
 
