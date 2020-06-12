@@ -44,7 +44,7 @@ hydrogen-blog:
 MathJax: false
 
 #install emoji
-#plugins:
+plugins:
   - jemoji
 
 # social account
