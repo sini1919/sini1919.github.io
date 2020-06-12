@@ -44,15 +44,15 @@ hydrogen-blog:
 MathJax: false
 
 #install emoji
-plugins:
-  - jemoji
+#plugins:
+#  - jemoji
 
 # social account
 image:
 twitter:
   username:
 #  site:
-facebook: 
+facebook:
   #publisher: null
   #profile_id: null
   app_id: null
