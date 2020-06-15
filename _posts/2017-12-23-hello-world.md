@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My First Post!
-#tags: Hydrogen
+tags: Hydrogen
 stickie: true
 ---
 
