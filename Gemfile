@@ -16,3 +16,6 @@ Gem::Specification.new do |s|
   s.platform      = Gem::Platform::RUBY
   s.add_runtime_dependency "jekyll", "~> 3.3"
 end
+
+
+gem "jemoji"
