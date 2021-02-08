@@ -2,6 +2,7 @@
 layout: page
 title: Recent Research
 tagline:
+sitetime: No
 permalink: /Recent.html  # What is Perma Link ==> What is shown on the URL, https://sini1919.github.io/[permalink].html 이런식
 ---
 

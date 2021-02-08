@@ -4,6 +4,8 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
 
+
+<!-- Page Layout 이 Home 이 아니면? -->
     {% if page.layout != 'home' %}
       <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     {% endif %}
