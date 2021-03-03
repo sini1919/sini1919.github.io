@@ -1,12 +1,19 @@
-- name: Link
-  image: https://atlinker.cn/avatar/avatar.png
-  url: https://atlinker.cn/
-  describe: Link's Blog
+#- name: Github - SIni
+#  image: https://atlinker.cn/avatar/avatar.png
+#  url: https://atlinker.cn/
+#  describe: Link's Blog
 
-- name: Daily
-  image: https://atlinker.cn/avatar/default.png
-  url: https：//linker.ml/daily/
-  describe: Daily
+- name: Github - SIni
+  image: https://avatars.githubusercontent.com/u/23470203?s=460&u=6c3f4fc7c233a696da9d3143a5c6561ee00edd98&v=4
+  url: https://github.com/sini1919
+  describe: Sini's github Main
+
+
+
+#- name: Daily
+#  image: https://atlinker.cn/avatar/default.png
+#  url: https：//linker.ml/daily/
+#  describe: Daily
 
 # - name: Links Name
 #  image: http://example.com/img.png

@@ -1,17 +1,42 @@
 ---
 layout: default
 ---
-
+	  {{ content }}
    <div class="fade">
      <div>
-  <span style="color:#78909C;font-size:18px">  Layouts/Config_html，</span>
+  <!--<span style="color:#78909C;font-size:18px">  Layouts/Config_html，</span> -->
+  <span style="color:#00497C;font-size:18px"> Layouts/Config_html 의 내용임,</span>
+
+<h2>
   <!-- 내 이름 들어가는부분 -->
-  <span style="color:#159957;font-size:25px">{{ site.author }}&nbsp;!</span>
+    <span style="color:#00497C;font-size:18px"> site.author 는 :</span>
+    <span style="color:#A1D9BC;font-size:25px">{{ site.author }}&nbsp;</span>
+    </h2>
+
+  <h2>
+
+  <!-- 내 링크 걸기 -->
+  {% for f in site.data.friends %}
+  <div class="link-chip">
+   <img alt="{{f.describe}}" src="{{f.image}}" class="link-chip-icon">
+   <a title="{{f.describe}}" target="_blank" class="link-chip-title" href="{{f.url}}">{{f.name}}</a>
+  </div>
+  {% endfor %}
+
+
   <!-- 내용 -->
-  <h2> 왜 Config 가 My CV에 컨텐츠가 되는 지?:<span style="color:#78909C;font-size:20px">&nbsp; 1.1.0</span></h2>
-  <br><a href="/update/update.html">查看更新</a>
-  <h2>URL:<blockquote><span style="color:#78909C;font-size:20px">{{ site.url }}</span></blockquote></h2>
-  <h2>Name:<blockquote><span style="color:#78909C;font-size:20px">{{ site.author }}</span></blockquote></h2>
+  <h5> 왜 Config 가 My CV에 컨텐츠가 되는 지?
+  <br>
+      <span style="color:#A1D9BC;font-size:12px">&nbsp; Layout이 Config이기 때문에</span></h5>
+  <h1>
+  <span style="color:#A1D9BC;font-size:16px">&nbsp;위에는 스팬의 결과, href는 무슨 의미일까? </span>
+  <br>
+     <a href="/update/update.html" style="color:#A1D9BC;font-size:16px"> " Update 보기 (查看更新) => /update/update.html 로 이동"</a>
+  </h1>
+
+
+  <h4>URL:<blockquote><span style="color:#A1D9BC;font-size:20px">{{ site.url }}</span></blockquote></h4>
+  <h4>Name:<blockquote><span style="color:#A1D9BC;font-size:20px">{{ site.author }}</span></blockquote></h4>
   <!-- <h2>网站关键词:<blockquote><span style="color:#78909C;font-size:20px">{{ site.keywords | escape }}</span></blockquote></h2>
   <h2>网站描述:<blockquote><span style="color:#78909C;font-size:20px">{{ site.description }}</span></blockquote></h2> -->
 
@@ -21,7 +46,12 @@ layout: default
   <h2>MathJax:<blockquote><span style="color:#78909C;font-size:20px">{{ site.MathJax }}</span></blockquote></h2>
   <h2>PJAX:<blockquote><span style="color:#78909C;font-size:20px">{{ site.PJAX }}</span></blockquote></h2>
   -->
-  <br><span style="font-size:14px" id="cut"></span>
-  <br><span style="font-size:14px" id="latest"></span>
+
+
+
+  <br><span style="font-size:14px" id="cut"> Cut</span>
+  <br><span style="font-size:14px" id="latest"> Latest</span>
+
+
     </div>
    </div>

@@ -1,12 +1,14 @@
 ---
 layout: page
 title: about
-tagline: 关于我 ~
+tagline: ==== 준비 중 ====
 sitetime: display
-permalink: /about.html
+#permalink: /about.html
+
+#Github: [link9596](https://github.com/link9596)
 ---
 
-## For EverNote?
+
 
 
 
@@ -15,4 +17,9 @@ permalink: /about.html
 Email: <a href="mailto:lk@atlinker.cn">lk@atlinker.cn</a>
 -->
 
-Github: [link9596](https://github.com/link9596)
+# My Page
+
+## EverNote
+* Sini Github: [Sini HAn](https://github.com/sini1919)
+
+''' wf '''

@@ -1,16 +1,16 @@
 ---
 layout: default
 ---
-	
+
 	  {{ content }}
-	
+
 	  <!--<h2>#</h2>
 	  <span></span>-->
 
   <div>&nbsp;</div>
 
   <ul class="post-list">
-    
+
 {% if paginator.page == 1 %}
   {% for post in site.posts %}
       {% if post.stickie != true %}
@@ -31,12 +31,15 @@ layout: default
       </li>
   {% endfor %}
 {% endif %}
-    
+
+
+
+
   {% for post in paginator.posts %}
     {% if post.stickie == true %}
       {% continue %}
     {% endif %}
-    
+
       <li>
 
         {% assign date_format = site.hydrogen-blog.date_format | default: "%b %-d, %Y" %}
