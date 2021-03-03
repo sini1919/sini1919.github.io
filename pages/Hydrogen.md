@@ -1,21 +1,22 @@
 ---
-layout: page
+layout: page 
 title: Test Page
 sitetime: display
-tagline: -----
+tagline: In query
 ---
 
-<div style="text-align:center"> :shit: In Preparing... </div>
+<div style="text-align:center"> :smile: In Preparing... </div>
 
 
 <article>
 
-  <div>
 
+
+  <div>
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tag_words = site_tags | split:',' | sort %}
 
-<!-- 遍历所有有标签的文章并列出标题 -->
+<!-- 관련 태그들 등록 -->
 {% for item in (0..site.tags.size) %}
   {% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
@@ -39,7 +40,6 @@ tagline: -----
     {% endfor %}
   {% endunless %}
 {% endfor %}
-
   </div>
 
 </article>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+
+{% capture site_tags %}
+{% for tag in site.tags %}
+{{ tag | first }}
+<h2 id="{{ tag | cgi_escape }}" class="tag-title">
+  **{{ tag }}
+</h2>
+{% unless forloop.last %}
+,{% endunless %}
+{% endfor %}
+{% endcapture %}
+
+
+{% assign tag_words = site_tags | split:',' | sort %}
+
+
+    {% capture this_word %}{{ tag_words[item] | strip_newlines }}
+    {% endcapture %}
+<h2 id="{{ this_word | cgi_escape }}" class="tag-title">
+  #{{ this_word }}
+</h2>
+
+
+</article>
+</div>
+
+
+
+</body>
+</html>

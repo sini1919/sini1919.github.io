@@ -1,7 +1,7 @@
 ---
 layout: tags
-title:  Tags
-#Tags
+title:  Post Tags
+#Tags is Defined in
 tagline:  Figure out how's "Layout Tags" going
 ---
 
